@@ -9,6 +9,17 @@ Full disk encryption is quite easy to perform with modern Linux distributions. R
 
 Note: Before proceeding make sure you can type a | "pipe" with the keyboard connected to the USB port on your Raspberry Pi
 
+
+Download latest Raspberry Pi4 Desktop 64bit OS from -
+https://downloads.raspberrypi.org/raspios_arm64/images/
+
+Download latest Raspberry Pi4 Server 64bit OS from - https://downloads.raspberrypi.org/raspios_lite_arm64/images/
+
+Read Raspberry Pi4 64bit offical Forum - https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=275370
+
+Read Raspberry Pi 64bit Forum - https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=275372
+
+
 ### Requirements
 
 Linux kernel 5.0 or later. You can check it with this command:
