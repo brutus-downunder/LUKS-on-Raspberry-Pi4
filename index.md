@@ -135,6 +135,9 @@ If ‘modprobe’ complains about the module not being found, the kernel module 
 
 You could check AES and see the speed difference with Adiantum:
 ```
+cryptsetup benchmark -c aes-xts-plain64
+```
+```
 # Tests are approximate using memory only (no storage IO).
 # Algorithm |   Key |      Encryption |      Decryption
 aes-xts        256b        88.7 MiB/s        86.2 MiB/s
