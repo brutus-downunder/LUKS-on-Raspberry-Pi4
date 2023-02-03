@@ -166,15 +166,15 @@ fi
 version="$1"
 current_version="$(uname -r)"
 case "${current_version}" in
-  *-v7+)
+  *-v8+)
     case "${version}" in
-      *-v7+) ;;
+      *-v8+) ;;
       *) exit 0
     esac
   ;;
   *+)
     case "${version}" in
-      *-v7+) exit 0 ;;
+      *-v8+) exit 0 ;;
     esac
   ;;
 esac
