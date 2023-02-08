@@ -1,6 +1,6 @@
 ## LUKS on Raspberry Pi with crypt unlock by Dropbear SSH
 
-***Last updated: 30th September 2021.***
+***Last updated: 08th February 2023.***
 
 
 This guide explains how to encrypt the root partition of a USB SSD that has a fresh install of a 64bit OS on a Raspberry Pi 4 with LUKS. The process requires a Raspberry Pi 4 running Raspberry Pi 64bit OS on the USB SSD and a USB memory with capacity of at least 8GB (for a fresh install). It is important to have a backup of the USB SSD, in case anything goes wrong, because it will be overwritten, and also of the USB memory as well.
